@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KTNamNhuan</title>
+</head>
+<body>
+<script>
+    let year= prompt("nhap nam can kiem tra");
+
+    if(((year%4)== 0 )&& ((year%100) != 0 )){
+        alert("nam da nhap la nam nhuan"+year);
+    }
+    else{
+        if(((year%400) == 0) &&((year%100)==0)){
+            alert("nam da nhap la nam nhuan"+year);
+        }
+        else{
+            alert("nam da nhap khong la nam nhuan"+year);}
+    }
+</script>
+</body>
+</html>
